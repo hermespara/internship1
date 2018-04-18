@@ -1,0 +1,64 @@
+# Cluster
+
+##Fastq-dump
+```
+Usage:
+fastq-dump [options] <path/file> [<path/file> ...]
+fastq-dump [options] <accession>
+
+Workflow and piping:
+-O 	| 	--outdir <path> 	Output directory, default is current working directory ('.').
+-Z 	| 	--stdout 	Output to stdout, all split data become joined into single stream.
+		--gzip 	Compress output using gzip.
+		--bzip2 	Compress output using bzip2.
+
+Exemple concret:
+/panhome/hparaqindes/sratoolkit.2.9.0-centos_linux64/bin/fastq-dump --gzip --split-3 -O /pandata/hparaqindes SRR1311916
+```
+* --split-3 will output 1,2, or 3 files: 1 file means the data is not paired. 2 files means paired data with no low quality reads or reads shorter than 20bp. 3 files means paired data, but asymmetric quality or trimming.  in the case of 3 file output, most people ignore <file>.fastq . this is a very old formatting option introduced for phase1 of 1000genomes.  before there were many analysis or trimming utilities and SRA submissions  always contained all reads from sequencer. back then nobody wanted to throw anything away. you might want to use --split-files instead. that will give only 2 files for paired-end data. or not bother with text output and access the data directly using sra ngs apis.Generally file.fastq is much smaller than the other two and the result of orphaned reads after trimming. I would typically ignore that file unless you really need the extra reads. The exception is if file.fastq is larger than either of the other two fastq files. In that case, you probably want to ignore the paired-end reads (or just use them to get things like the insert size distribution).  
+* -o for the output dir
+* --gzip Compress output using gzip
+
+[Configuration of SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=std)
+
+[acces dbGap with sra](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=dbgap_use)
+
+[how to donwload data from dbGaP](https://www.ncbi.nlm.nih.gov/sites/books/NBK36439/#Download.download_using_prefetch_command)
+
+
+## Launch a job in cluster
+
+```
+#PBS -N sra_SRR1311916_download
+#PBS -q q1hour
+#PBS -l nodes=1:ppn=1
+#PBS -o /pandata/hparaqindes/ncbi/logs
+#PBS -e /pandata/hparaqindes/ncbi/logs
+
+#! /bin/bash
+
+##The pbs script will take one argument:
+## outputDir = /pandata/hparaqindes/ncbi/sra
+outputDir=/pandata/hparaqindes/ncbi/sra
+workDir=/pandata/hparaqindes/ncbi
+cd $workDir
+/panhome/hparaqindes/sratoolkit.2.9.0-centos_linux64/bin/fastq-dump --gzip --split-3 -O $outputDir SRR1311916
+
+```
+* -N name for the job
+* -q destination for the queu (1hour, 1 day etc)
+* -l requesting resource here nodes=1 and ppn=1
+* -o path for the standard output stream
+* -e path for the standard error stream
+
+[Look for your job](http://adminlbbe.univ-lyon1.fr/qstat/)
+
+```
+#!/bin/sh
+filename="$1"
+while read -r line
+do
+	name="$line"
+	mkdir "$name"
+done < "$filename"
+```
