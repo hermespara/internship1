@@ -62,3 +62,4 @@ do
 	mkdir "$name"
 done < "$filename"
 ```
+http://pedagogix-tagc.univ-mrs.fr/courses/ABD/practical/snakemake/snake_intro.html
