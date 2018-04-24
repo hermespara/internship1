@@ -1,0 +1,14 @@
+#!/bin/sh
+filename="$1"
+while read -r line
+do
+	name="$line"
+	cd dbGaP-13871
+	prefetch -a "/home/hermesparaqindes/.aspera/connect/bin/ascp|/home/hermesparaqindes/.aspera/connect/etc/asperaweb_id_dsa.openssh" $name
+	if [ ! -d $sample ]; then
+		mkdir sra/$name
+	fi
+	if [ ! -f /sra/$name.sra ]; then
+		mv /home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/sra/$name.* /home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/sra/$name/
+	fi
+done < "$filename"
