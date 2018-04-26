@@ -12,10 +12,10 @@ aspera = "\"/home/hermesparaqindes/.aspera/connect/bin/ascp|/home/hermesparaqind
 SAMPLES = []
 dr = '/home/hermesparaqindes/Bureau/Snake_make/'
 sra_id = '/home/hermesparaqindes/Bureau/Snake_make/SRA_numbers_try'
-STAR = '/home/hermesparaqindes/ncbi-outdir/STAR-2.5.2a/bin/Linux_x86_64/STAR'
+star = '/home/hermesparaqindes/ncbi-outdir/STAR-2.5.2a/bin/Linux_x86_64/STAR'
 genome_Dir = '/home/hermesparaqindes/....'
 #sra = expand('{sra}', sra=sra_id)
-with open('/home/hermesparaqindes/Bureau/Snake_make/SRA_numbers_try', "r") as code_file:
+with open('/home/hermesparaqindes/Bureau/ncbi/SRA_numbers_try', "r") as code_file:
     for line in code_file:
         sra = line.strip()
         SAMPLES.append(sra)
@@ -23,16 +23,45 @@ print(SAMPLES)
 a = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES)
 print(a)
 
+print(SAMPLES)
+#########################################################################
+######														#############
+######				STAR parameters							#############
+######														#############
+#########################################################################
+
+#input the Star directory
+star = '/home/hermesparaqindes/ncbi-outdir/STAR-2.5.2a/bin/Linux_x86_64/STAR'
+# the genomes Directory used by STAR
+genome_Dir = '/home/hermesparaqindes/Bureau/Genomes/Human_hg19_GRCh37_75_ref_with_blacklist_intronLength_1_ROI_nonPolyA/STAR'
+
+sample_star_name = expand('{sample}_', sample=SAMPLES)
+
+#########################################################################
+######														#############
+######				IRF parameters							#############
+######														#############
+#########################################################################
+
+IRF_output_Dir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/IRFinder", sample = SAMPLES)
+IRF_genome = '/home/hermesparaqindes/Bureau/Genomes/Human_hg19_GRCh37_75_ref_with_blacklist_intronLength_1_ROI_nonPolyA'
+IRF_dir = '/home/hermesparaqindes/ncbi-outdir/IRFinder-1.2.4/bin/IRFinder'
+
+fastQC_dir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC", sample = SAMPLES)
+sample_dir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLES)
+
 rule all:
     input:
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra.vdbcache.cache', sample = SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + '/{sample}.sra.vdbcache.cache', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1_fastqc.html', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1_fastqc.zip', sample=SAMPLES)
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLES),
+		#expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastqc", sample=SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.html', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.zip', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.html', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.zip', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam', sample=SAMPLES)
         #WorkDir+'{sample}._1.gz'
         #/home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/sra/SRR1311916/SRR1311916_1.fastq.gz
 '''
@@ -49,63 +78,61 @@ rule try_another_way_to_download:
         r1 = WorkDir + 'SRA_numbers_try',
         r2 = WorkDir + 'bashFile.pbs'
     output:
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra.vdbcache.cache', sample = SAMPLES)
+    	expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample=SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES)
     shell:
         """
         cd {WorkDir}
         ./bashFile.pbs {input.r1}
         """
 
-rule fastq_dump_:
-    input:
-        outdir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample=SAMPLES),
-        file_in = expand(WorkDir + dbGaP + "/sra" + "/" +'{sample}'+'/{sample}.sra', sample=SAMPLES)
-    output:
-        #directory = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}',sample = SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + '/{sample}.sra.vdbcache.cache', sample=SAMPLES)
-    shell:
-        """
-        cd {input.outdir}
-        pwd
-        echo {input.file_in}
-        fastq-dump --gzip --split-3 {input.file_in}
-        """
+rule fastq_dump:
+	input:
+		expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES)
+	output:
+		expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES),
+		expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample=SAMPLES)
+	shell:
+		"""
+		cd {sample_dir}
+		pwd
+		fastq-dump --gzip --split-3 {input}
+		"""
 
 rule fastQC:
     input:
-        fastqDir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLES),
-        fastq_1 = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample = SAMPLES)
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample = SAMPLES)
     output:
-        html_1 = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1_fastqc.html', sample = SAMPLES),
-        fastqc_zip = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1_fastqc.zip', sample = SAMPLES)
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.html', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.zip', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.html', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.zip', sample = SAMPLES)
     shell:
         """
-        cd {input.fastqDir}
-        fastqc -t 8 {input.fastq_1}
+        fastqc -t 8 -o {fastQC_dir} {input[0]} {input[1]}
         """
-'''
+
 rule star_mapping:
     input:
-        fastq_gz_1 = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample = SAMPLES),
-        fastq_gz_2 = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample = SAMPLES)
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample = SAMPLES)
     output:
-        sorted_bal_out = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '')
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam', sample=SAMPLES)
     shell:
         """
-        {STAR} --runThreadN 8 \
+        {star} --runThreadN 8 \
         --limitBAMsortRAM 30000000000 \
-        --readFilesCommand \
-        zcat --genomeDir {genome_Dir} \
+        --readFilesCommand zcat \
+        --genomeDir {genome_Dir} \
         --outFilterMultimapNmax 1 \
         --outSAMunmapped None \
         --outSAMtype BAM Unsorted \
         SortedByCoordinate \
-        --readFilesIn {input.fastq_gz_1} {input.fastq_gz_2} \
-        --outFileNamePrefix {????}/${????}_
+        --readFilesIn {input[0]} {input[1]} \
+        --outFileNamePrefix {sample_dir}/STAR/{sample_star_name}
+		"""
+'''
 rule samtools_index:
     input:
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+"/star", sample=SAMPLES),
