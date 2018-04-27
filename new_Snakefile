@@ -1,0 +1,111 @@
+import subprocess
+
+
+WorkDir = '/home/hermesparaqindes/Bureau/ncbi/'
+dbGaP = 'dbGaP-13871'
+public = 'puplic'
+sra_toolkit_Dir = '/home/hermesparaqindes/Téléchargements/sratoolkit.2.8.1-1-ubuntu64/bin/'
+vdb_validate = 'vdb-validate'
+fastq_dump = 'fastq-dump'
+prefetch = 'prefetch'
+aspera = "\"/home/hermesparaqindes/.aspera/connect/bin/ascp|/home/hermesparaqindes/.aspera/connect/etc/asperaweb_id_dsa.openssh\""
+SAMPLES = []
+dr = '/home/hermesparaqindes/Bureau/Snake_make/'
+sra_id = '/home/hermesparaqindes/Bureau/Snake_make/SRA_numbers_try'
+star = '/home/hermesparaqindes/ncbi-outdir/STAR-2.5.2a/bin/Linux_x86_64/STAR'
+genome_Dir = '/home/hermesparaqindes/....'
+#sra = expand('{sra}', sra=sra_id)
+with open('/home/hermesparaqindes/Bureau/ncbi/SRA_numbers_try', "r") as code_file:
+    for line in code_file:
+        sra = line.strip()
+        SAMPLES.append(sra)
+print(SAMPLES)
+a = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES)
+print(a)
+
+print(SAMPLES)
+#####################################################################
+##### FASTQC parameters ##############
+####################################
+fastqc_software = '/pandata/hparaqindes/FastQC/fastqc'
+
+#########################################################################
+######														#############
+######				STAR parameters							#############
+######														#############
+#########################################################################
+
+#input the Star directory
+star = '/home/hermesparaqindes/ncbi-outdir/STAR-2.5.2a/bin/Linux_x86_64/STAR'
+# the genomes Directory used by STAR
+genome_Dir = '/home/hermesparaqindes/Bureau/Genomes/Human_hg19_GRCh37_75_ref_with_blacklist_intronLength_1_ROI_nonPolyA/STAR'
+
+sample_star_name = expand('{sample}_', sample=SAMPLES)
+
+#########################################################################
+######														#############
+######				IRF parameters							#############
+######														#############
+#########################################################################
+
+IRF_output_Dir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/IRFinder", sample = SAMPLES)
+IRF_genome = '/home/hermesparaqindes/Bureau/Genomes/Human_hg19_GRCh37_75_ref_with_blacklist_intronLength_1_ROI_nonPolyA'
+IRF_dir = '/home/hermesparaqindes/ncbi-outdir/IRFinder-1.2.4/bin/IRFinder'
+
+fastQC_dir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC", sample = SAMPLES)
+sample_dir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLES)
+
+rule all:
+    input:
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample=SAMPLES),
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLES),
+		#expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastqc", sample=SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.html', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.zip', sample = SAMPLES)
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.html', sample = SAMPLES),
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.zip', sample = SAMPLES)
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam', sample=SAMPLES)
+        #WorkDir+'{sample}._1.gz'
+        #/home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/sra/SRR1311916/SRR1311916_1.fastq.gz
+
+rule try_another_way_to_download:
+    input:
+        r1 = WorkDir + 'SRA_numbers_try',
+        r2 = WorkDir + 'bashFile.pbs'
+    output:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra'
+    shell:
+        """
+        cd {WorkDir}{dbGaP}
+        {sra_toolkit_Dir}{prefetch} -a {aspera} {wildcards.sample}
+        mv {WorkDir}{dbGaP}/sra/{wildcards.sample}.* {WorkDir}{dbGaP}/sra/{wildcards.sample}/
+        """
+rule fastq_dump:
+	input:
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra'
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample=SAMPLES)
+	output:
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz',
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz'
+	shell:
+		"""
+        cd {WorkDir}{dbGaP}/sra/{wildcards.sample}
+		pwd
+		fastq-dump --gzip --split-3 {input}
+		"""
+rule fastQC:
+    input:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz'
+    output:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.html',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.zip',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.html',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.zip'
+    shell:
+        """
+        fastqc -t 8 -o {WorkDir}{dbGaP}/sra/{wildcards.sample}/fastQC {input[0]} {input[1]}
+        """
+
