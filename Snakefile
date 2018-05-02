@@ -52,73 +52,67 @@ sample_dir = expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLE
 
 rule all:
     input:
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES),
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample=SAMPLES),
-        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample = SAMPLES),
-		#expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastqc", sample=SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.html', sample = SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.zip', sample = SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.html', sample = SAMPLES),
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.zip', sample = SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam', sample=SAMPLES)
-        #WorkDir+'{sample}._1.gz'
-        #/home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/sra/SRR1311916/SRR1311916_1.fastq.gz
-'''
-rule download_sra_with_prefetch:
-    input:
-        r1 = dr + '{sample}.txt'
-    output:
-        dr + '{sample}.sra'
-    shell:
-        'echo {input.r1} > {output}'
-'''
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam', sample=SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/STAR" + "/" + '{sample}_Aligned.sortedByCoord.out.bam.bai', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/IRFinder' + "/" + 'IRFinder-IR-nondir.txt', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/IRFinder' + "/" + '{sample}', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR_anonymized' + "/" + '{sample}_Aligned_anonymize.sortedByCoord.out.bam', sample = SAMPLES),
+        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR_anonymized' + "/" + '{sample}_Aligned_anonymize.sortedByCoord.out.bam.bai', sample = SAMPLES)
+
+
 rule try_another_way_to_download:
     input:
         r1 = WorkDir + 'SRA_numbers_try',
         r2 = WorkDir + 'bashFile.pbs'
     output:
-    	expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample=SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES)
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra'
     shell:
         """
-        cd {WorkDir}
-        ./bashFile.pbs {input.r1}
+        cd {WorkDir}{dbGaP}
+        {sra_toolkit_Dir}{prefetch} -a {aspera} {wildcards.sample}
+        mv {WorkDir}{dbGaP}/sra/{wildcards.sample}.* {WorkDir}{dbGaP}/sra/{wildcards.sample}/
         """
-
 rule fastq_dump:
 	input:
-		expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra', sample=SAMPLES)
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}.sra'
+        #expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}', sample=SAMPLES)
 	output:
-		expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample=SAMPLES),
-		expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample=SAMPLES)
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz',
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz'
 	shell:
 		"""
-		cd {sample_dir}
+        cd {WorkDir}{dbGaP}/sra/{wildcards.sample}
 		pwd
 		fastq-dump --gzip --split-3 {input}
 		"""
 
 rule fastQC:
     input:
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample = SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample = SAMPLES)
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz'
     output:
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.html', sample = SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.zip', sample = SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.html', sample = SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.zip', sample = SAMPLES)
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.html',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_1_fastqc.zip',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.html',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/fastQC" + '/{sample}_2_fastqc.zip'
     shell:
         """
-        fastqc -t 8 -o {fastQC_dir} {input[0]} {input[1]}
+        fastqc -t 8 -o {WorkDir}{dbGaP}/sra/{wildcards.sample}/fastQC {input[0]} {input[1]}
         """
 
 rule star_mapping:
     input:
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz', sample = SAMPLES),
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz', sample = SAMPLES)
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_1.fastq.gz',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}'+'/{sample}_2.fastq.gz'
     output:
-        expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam', sample=SAMPLES)
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam'
     shell:
         """
         {star} --runThreadN 8 \
@@ -130,9 +124,83 @@ rule star_mapping:
         --outSAMtype BAM Unsorted \
         SortedByCoordinate \
         --readFilesIn {input[0]} {input[1]} \
-        --outFileNamePrefix {sample_dir}/STAR/{sample_star_name}
+        --outFileNamePrefix {WorkDir}{dbGaP}/sra/{wildcards.sample}/STAR/{wildcards.sample}_
 		"""
+
+rule samtools_index:
+    input:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/STAR" + "/" + '{sample}_Aligned.sortedByCoord.out.bam'
+    output:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + "/STAR" + "/" + '{sample}_Aligned.sortedByCoord.out.bam.bai'
+    shell:
+        """
+        samtools index {input}
+        """
+
+rule run_IRF:
+	input:
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam'
+	output:
+		WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/IRFinder' + "/" + 'IRFinder-IR-nondir.txt'
+	shell:
+		"""
+		{IRF_dir} -m BAM -r {IRF_genome} \
+		-d {WorkDir}{dbGaP}/sra/{wildcards.sample}/IRFinder {input}
+		"""
+
+
+rule junctionCover2IRF:
+    output:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/IRFinder' + "/" + '{sample}'
+    shell:
+        """
+        python2.7 {juncitonCover2IRF_file_dir} \
+        --OutFolder {WorkDir}{dbGaP}/sra/{wildcards.sample}/IRFinder \
+		--AlignmentPrefix {WorkDir}{dbGaP}/sra/{wildcards.sample}/STAR/{wildcards.sample} \
+        --Introns {introns_file} \
+        --startCorection \
+		--TMP {WorkDir}{dbGaP}/sra/{wildcards.sample}/IRFinder
+        """
+
+rule bam_anonymize:
+    input:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam',
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR' + "/" + '{sample}_Aligned.sortedByCoord.out.bam.bai'
+    output:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR_anonymized' + "/" + '{sample}_Aligned_anonymize.sortedByCoord.out.bam'
+    shell:
+        """
+        PYTHONPATH=$PYTHONPATH:/usr/remote/python_packages/lib/python2.7/site-packages/
+        python2.7 {anonymize_bam_file} \
+        --bamIn {input[0]} \
+        --bamOut {output}
+        """
+
+rule new_bam_anonymized_index:
+    input:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR_anonymized' + "/" + '{sample}_Aligned_anonymize.sortedByCoord.out.bam'
+    output:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/STAR_anonymized' + "/" + '{sample}_Aligned_anonymize.sortedByCoord.out.bam.bai'
+    shell:
+        """
+        samtools index {input}
+        """
+
+
 '''
+rule junctionCover2IRF:
+    output:
+        WorkDir + dbGaP + "/sra" + "/" + '{sample}' + '/IRFinder' + "/" + '{sample}_Aligned.out.bam'
+    shell:
+        """
+        python2.7 {juncitonCover2IRF_file_dir} \
+        --OutFolder {WorkDir}{dbGaP}/sra/{wildcards.sample}/IRFinder \
+		--AlignmentPrefix {WorkDir}{dbGaP}/sra/{wildcards.sample}/STAR/{wildcards.sample} \
+        --Introns {introns_file} \
+        --startCorection \
+		--TMP {WorkDir}{dbGaP}/sra/{wildcards.sample}/IRFinder
+        """
+
 rule samtools_index:
     input:
         expand(WorkDir + dbGaP + "/sra" + "/" + '{sample}'+"/star", sample=SAMPLES),
