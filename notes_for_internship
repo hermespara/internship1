@@ -63,3 +63,51 @@ do
 done < "$filename"
 ```
 http://pedagogix-tagc.univ-mrs.fr/courses/ABD/practical/snakemake/snake_intro.html
+
+
+
+## Tutorial
+
+1. Download sra toolkit   
+	```
+	wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.8.1-1/sratoolkit.2.8.1-1-ubuntu64.tar.gz
+	tar -xzf <sra.tar.gz file>
+	```
+2. Download fastQC
+	```
+	wget http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.7.zip
+	unzip <fastQC.zip>
+	```
+3. Download Aspera
+	```
+	wget https://download.asperasoft.com/download/sw/connect/3.7.4/aspera-connect-3.7.4.147727-linux-64.tar.gz
+	tar -zxvf aspera-connect-3.7.4.147727-linux-64.tar.gz
+	```
+4. Configure sra-toolkit
+	```
+	<sra_toolkit_Dir/bin> ./vdb-config -i
+	```
+5. Change the variables on Snakefile
+6. Make sure that all the Softwares are installed
+7. You can find more information and tips in Snakefile. Read the comments.
+8. Launch Snakemake
+	```
+	snakemake --core 8
+	Snakemake will use 8 cores
+	```
+
+
+### Scripts
+* junctionCover2IRF  
+Be careful to use the last version of junctionCover2IRF. A copy of the last version can be found in
+```
+/data/home/hparaqindes/junctionCover2IRF.py
+```
+
+* htseq-count  
+Use the last version of htseq-count.
+	```
+	pip install HTSeq
+	or
+	pip intall --user HTSeq --upgrade
+	```
