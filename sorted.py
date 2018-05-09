@@ -1,7 +1,7 @@
 #!/usr/bin/python3.6
 import csv
 import operator
-reader = csv.reader(open("/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/sra_for_not_sun_exposed", newline=''), delimiter = '\t')
+reader = csv.reader(open("/home/hermesparaqindes/Bureau/internship1/sra_for_not_sun_exposed", newline=''), delimiter = '\t')
 sorted_list = sorted(reader, key = operator.itemgetter(0))
 print(sorted_list)
 
