@@ -1,6 +1,6 @@
 #!/usr/bin/python3.6
 import csv
-all_data_path = "/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/complete.txt"
+all_data_path = "/home/hermesparaqindes/Bureau/internship1/complete.txt"
 all_data = open(all_data_path, "r")
 all_data_csv = csv.reader(all_data, delimiter='\t')
 

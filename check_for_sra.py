@@ -9,7 +9,7 @@ class Full_data:
         return str(self.__dict__)
 
 
-full_data_path = "/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/not_sun_exposed"
+full_data_path = "/home/hermesparaqindes/Bureau/internship1/not_sun_exposed"
 full_data_open = open(full_data_path, "r")
 full_data = list(csv.reader(full_data_open, delimiter ='\t'))
 full_data_instance = [Full_data(i, full_data[0]) for i in full_data[1:]]
@@ -26,7 +26,7 @@ class Sra:
         return str(self.__dict__)
 
 
-sra_data_path = "/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/SraRunTable.txt"
+sra_data_path = "/home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/files/phs000424.v7.pht002742.v7.p2.c1.GTEx_Subject_Phenotypes.GRU.txt/SraRunTable.txt"
 sra_data_open = open(sra_data_path, "r")
 sra_data = list(csv.reader(sra_data_open, delimiter = '\t'))
 sra_data_instance = [Sra(i, sra_data[0]) for i in sra_data[1:]]

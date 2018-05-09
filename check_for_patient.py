@@ -2,7 +2,7 @@
 import csv
 import re
 
-lymphocytes_path = "/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/data_with_lympho"
+lymphocytes_path = "/home/hermesparaqindes/Bureau/internship1/data_with_lympho"
 lymphocytes_data = open(lymphocytes_path, "r")
 all_lymphocytes_data = list(csv.reader(lymphocytes_data, delimiter='\t'))
 

@@ -9,7 +9,7 @@ class Prelevement:
     def __str__(self):
         return str(self.__dict__)
 
-path = "/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/data"
+path = "/home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/data"
 open_file = open(path, "r")
 data = list(csv.reader(open_file, delimiter ='\t'))
 #data = list(csv.reader(open("/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002743.v7.p2.c1.GTEx_Sample_Attributes.GRU.txt/try")), delimiter = '\t')
@@ -27,7 +27,7 @@ class Individu:
     def __str__(self):
         return str(self.__dict__)
 
-ind_path = "/home/hermesparaqindes/Bureau/dbGaP-13871/files/phs000424.v7.pht002742.v7.p2.c1.GTEx_Subject_Phenotypes.GRU.txt/data"
+ind_path = "/home/hermesparaqindes/Bureau/ncbi/dbGaP-13871/files/phs000424.v7.pht002742.v7.p2.c1.GTEx_Subject_Phenotypes.GRU.txt/data"
 open_ind = open(ind_path, "r")
 ind = list(csv.reader(open_ind, delimiter = '\t'))
 ind_insta = [Individu(i, ind[0]) for i in ind[1:]]
