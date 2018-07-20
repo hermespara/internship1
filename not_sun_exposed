@@ -1,0 +1,336 @@
+SUBJID	SAMPID	SMTS	SMTSD	SMNABTCHT	SMTSISCH	AGE	COHORT	RACE	SEX	Run
+GTEX-11EM3   	   GTEX-11EM3-0001-SM-5Q5BD   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   1143.0   	   21   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11EM3   	   GTEX-11EM3-1226-SM-5N9DD   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   165.0   	   21   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11EM3   	   GTEX-11EM3-2426-SM-59861   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   240.0   	   21   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11EQ9   	   GTEX-11EQ9-0002-SM-5QGQ1   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -165.0   	   33   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11EQ9   	   GTEX-11EQ9-0008-SM-5Q5DK   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   321.0   	   33   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11EQ9   	   GTEX-11EQ9-1626-SM-5PNY8   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   126.0   	   33   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11EQ9   	   GTEX-11EQ9-2426-SM-5HL5T   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   321.0   	   33   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11P7K   	   GTEX-11P7K-0003-SM-5S2OU   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -101.0   	   37   	   Organ Donor (OPO)   	   2   	   1
+GTEX-11P7K   	   GTEX-11P7K-0008-SM-5S2O5   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   351.0   	   37   	   Organ Donor (OPO)   	   2   	   1
+GTEX-11P7K   	   GTEX-11P7K-1126-SM-5HL4L   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   133.0   	   37   	   Organ Donor (OPO)   	   2   	   1
+GTEX-11P7K   	   GTEX-11P7K-2126-SM-5GU7G   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   351.0   	   37   	   Organ Donor (OPO)   	   2   	   1
+GTEX-11TT1   	   GTEX-11TT1-0004-SM-5S2NT   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -59.0   	   22   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11TT1   	   GTEX-11TT1-0008-SM-5S2P8   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   134.0   	   22   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11TT1   	   GTEX-11TT1-1826-SM-5EQLV   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   100.0   	   22   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11TT1   	   GTEX-11TT1-2526-SM-5EGIB   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   135.0   	   22   	   Organ Donor (OPO)   	   3   	   1
+GTEX-11VI4   	   GTEX-11VI4-0001-SM-5S2OI   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -106.0   	   47   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11VI4   	   GTEX-11VI4-1126-SM-5EQMD   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   146.0   	   47   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11VI4   	   GTEX-11VI4-1726-SM-5CVLH   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   315.0   	   47   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11ZTT   	   GTEX-11ZTT-0002-SM-5S2PA   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -15.0   	   67   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11ZTT   	   GTEX-11ZTT-0008-SM-5S2TZ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   246.0   	   67   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11ZTT   	   GTEX-11ZTT-2126-SM-5CVLO   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   227.0   	   67   	   Organ Donor (OPO)   	   3   	   2
+GTEX-11ZTT   	   GTEX-11ZTT-2426-SM-5EQLS   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   247.0   	   67   	   Organ Donor (OPO)   	   3   	   2
+GTEX-1211K   	   GTEX-1211K-0001-SM-5S2P9   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -66.0   	   63   	   Organ Donor (OPO)   	   3   	   2
+GTEX-1211K   	   GTEX-1211K-0008-SM-5S2W1   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   145.0   	   63   	   Organ Donor (OPO)   	   3   	   2
+GTEX-1211K   	   GTEX-1211K-1526-SM-5FQU4   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   117.0   	   63   	   Organ Donor (OPO)   	   3   	   2
+GTEX-1211K   	   GTEX-1211K-2026-SM-5EQ4Z   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   145.0   	   63   	   Organ Donor (OPO)   	   3   	   2
+GTEX-1212Z   	   GTEX-1212Z-0002-SM-5SI6W   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   478.0   	   66   	   Postmortem   	   3   	   1
+GTEX-1212Z   	   GTEX-1212Z-0008-SM-5TDBW   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   757.0   	   66   	   Postmortem   	   3   	   1
+GTEX-1212Z   	   GTEX-1212Z-0011-R1b-SM-5BC72   	   Brain   	   Brain - Hippocampus   	   RNA isolation_PAXgene Tissue miRNA   	      	   66   	   Postmortem   	   3   	   1
+GTEX-1212Z   	   GTEX-1212Z-0126-SM-59HK4   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   602.0   	   66   	   Postmortem   	   3   	   1
+GTEX-1212Z   	   GTEX-1212Z-2526-SM-5EGKP   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   757.0   	   66   	   Postmortem   	   3   	   1
+GTEX-12696   	   GTEX-12696-0002-SM-5SI6U   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   470.0   	   68   	   Postmortem   	   3   	   1
+GTEX-12696   	   GTEX-12696-0008-SM-5TDBX   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   599.0   	   68   	   Postmortem   	   3   	   1
+GTEX-12696   	   GTEX-12696-0126-SM-5EQ4L   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   485.0   	   68   	   Postmortem   	   3   	   1
+GTEX-12696   	   GTEX-12696-2426-SM-5EQ6H   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   600.0   	   68   	   Postmortem   	   3   	   1
+GTEX-12696   	   GTEX-12696-2926-SM-5FQTG   	   Brain   	   Brain - Cortex   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   750.0   	   68   	   Postmortem   	   3   	   1
+GTEX-12696   	   GTEX-12696-3026-SM-5FQTU   	   Brain   	   Brain - Cerebellum   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   755.0   	   68   	   Postmortem   	   3   	   1
+GTEX-1269C   	   GTEX-1269C-0003-SM-5S2PB   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   626.0   	   62   	   Postmortem   	   3   	   2
+GTEX-1269C   	   GTEX-1269C-0008-SM-5TDBY   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   265.0   	   62   	   Postmortem   	   3   	   2
+GTEX-1269C   	   GTEX-1269C-0011-R4b-SM-5P9ES   	   Brain   	   Brain - Amygdala   	   RNA isolation_PAXgene Tissue miRNA   	      	   62   	   Postmortem   	   3   	   2
+GTEX-1269C   	   GTEX-1269C-0126-SM-5EQ5L   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   758.0   	   62   	   Postmortem   	   3   	   2
+GTEX-1269C   	   GTEX-1269C-2526-SM-5EGJ3   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   985.0   	   62   	   Postmortem   	   3   	   2
+GTEX-1269C   	   GTEX-1269C-3126-SM-5EGI6   	   Brain   	   Brain - Cerebellum   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   1041.0   	   62   	   Postmortem   	   3   	   2
+GTEX-12BJ1   	   GTEX-12BJ1-0003-SM-5SI6V   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   1178.0   	   61   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12BJ1   	   GTEX-12BJ1-0008-SM-5TDBZ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   300.0   	   61   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12BJ1   	   GTEX-12BJ1-0926-SM-5EQ62   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   120.0   	   61   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12C56   	   GTEX-12C56-0002-SM-5S2PC   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -56.0   	   23   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12C56   	   GTEX-12C56-0008-SM-5TDC1   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   246.0   	   23   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12C56   	   GTEX-12C56-1526-SM-5FQUQ   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   231.0   	   23   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12C56   	   GTEX-12C56-1726-SM-5EQ61   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   241.0   	   23   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSJ   	   GTEX-12WSJ-0002-SM-5TDBV   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -112.0   	   43   	   Organ Donor (OPO)   	   3   	   2
+GTEX-12WSJ   	   GTEX-12WSJ-0008-SM-664ML   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   208.0   	   43   	   Organ Donor (OPO)   	   3   	   2
+GTEX-12WSJ   	   GTEX-12WSJ-1126-SM-5LZVJ   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   142.0   	   43   	   Organ Donor (OPO)   	   3   	   2
+GTEX-12WSJ   	   GTEX-12WSJ-1826-SM-5GCNY   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   208.0   	   43   	   Organ Donor (OPO)   	   3   	   2
+GTEX-12WSL   	   GTEX-12WSL-0002-SM-664MF   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -76.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSL   	   GTEX-12WSL-0008-SM-664MM   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   353.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSL   	   GTEX-12WSL-2026-SM-5GCML   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   326.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSL   	   GTEX-12WSL-2526-SM-5GCNJ   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   353.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSN   	   GTEX-12WSN-0001-SM-664MG   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -22.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSN   	   GTEX-12WSN-0008-SM-664MI   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   297.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSN   	   GTEX-12WSN-1426-SM-5GCO6   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   250.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSN   	   GTEX-12WSN-2326-SM-5DUVG   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   290.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-12WSN   	   GTEX-12WSN-5019-SM-79OM6   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	      	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-13111   	   GTEX-13111-0002-SM-5TDBU   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   1188.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-13111   	   GTEX-13111-0008-SM-5YY8R   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   324.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-13111   	   GTEX-13111-1626-SM-5EGJY   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   321.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-13111   	   GTEX-13111-1826-SM-5GCP1   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   330.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-1399R   	   GTEX-1399R-0002-SM-62LD9   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -43.0   	   38   	   Organ Donor (OPO)   	   3   	   1
+GTEX-1399R   	   GTEX-1399R-0008-SM-5ZZUF   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   334.0   	   38   	   Organ Donor (OPO)   	   3   	   1
+GTEX-1399R   	   GTEX-1399R-1326-SM-5PNYS   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   128.0   	   38   	   Organ Donor (OPO)   	   3   	   1
+GTEX-1399R   	   GTEX-1399R-2726-SM-5IJBA   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   334.0   	   38   	   Organ Donor (OPO)   	   3   	   1
+GTEX-UPJH   	   GTEX-UPJH-0001-SM-3NMDE   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   653.0   	   59   	   Postmortem   	   3   	   1
+GTEX-UPJH   	   GTEX-UPJH-0226-SM-3GADV   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   795.0   	   59   	   Postmortem   	   3   	   1
+GTEX-UPJH   	   GTEX-UPJH-0326-SM-3GADU   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   799.0   	   59   	   Postmortem   	   3   	   1
+GTEX-UPK5   	   GTEX-UPK5-0003-SM-3NMDI   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   795.0   	   49   	   Postmortem   	   3   	   1
+GTEX-UPK5   	   GTEX-UPK5-0008-SM-4IHJD   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   984.0   	   49   	   Postmortem   	   3   	   1
+GTEX-UPK5   	   GTEX-UPK5-0426-SM-3GAEK   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   978.0   	   49   	   Postmortem   	   3   	   1
+GTEX-UPK5   	   GTEX-UPK5-0726-SM-4IHL7   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   983.0   	   49   	   Postmortem   	   3   	   1
+GTEX-V1D1   	   GTEX-V1D1-0003-SM-3NMDP   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -37.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-V1D1   	   GTEX-V1D1-0008-SM-4JBIJ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   475.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-V1D1   	   GTEX-V1D1-2026-SM-3GAF4   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   427.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-V1D1   	   GTEX-V1D1-2226-SM-3NMAX   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   472.0   	   51   	   Organ Donor (OPO)   	   3   	   1
+GTEX-VJYA   	   GTEX-VJYA-0001-SM-3NMDJ   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -129.0   	   67   	   Organ Donor (OPO)   	   2   	   1
+GTEX-VJYA   	   GTEX-VJYA-1126-SM-3GIJU   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   257.0   	   67   	   Organ Donor (OPO)   	   2   	   1
+GTEX-VJYA   	   GTEX-VJYA-1526-SM-3GIJV   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   265.0   	   67   	   Organ Donor (OPO)   	   2   	   1
+GTEX-VUSG   	   GTEX-VUSG-0003-SM-3NMDK   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   114.0   	   59   	   Postmortem   	   3   	   1
+GTEX-VUSG   	   GTEX-VUSG-0003-SM-5S2S5   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   114.0   	   59   	   Postmortem   	   3   	   1
+GTEX-VUSG   	   GTEX-VUSG-0008-SM-4KL24   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   288.0   	   59   	   Postmortem   	   3   	   1
+GTEX-VUSG   	   GTEX-VUSG-2326-SM-4KL1U   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   273.0   	   59   	   Postmortem   	   3   	   1
+GTEX-VUSG   	   GTEX-VUSG-2526-SM-4KL1V   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   289.0   	   59   	   Postmortem   	   3   	   1
+GTEX-VUSG   	   GTEX-VUSG-2526-SM-5S2S9   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   289.0   	   59   	   Postmortem   	   3   	   1
+GTEX-W5X1   	   GTEX-W5X1-0001-SM-3P61V   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -1133.0   	   48   	   Postmortem   	   2   	   2
+GTEX-W5X1   	   GTEX-W5X1-0008-SM-4LMKA   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   365.0   	   48   	   Postmortem   	   2   	   2
+GTEX-W5X1   	   GTEX-W5X1-2526-SM-3GILC   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   344.0   	   48   	   Postmortem   	   2   	   2
+GTEX-WEY5   	   GTEX-WEY5-0001-SM-3P61Z   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   1274.0   	   44   	   Organ Donor (OPO)   	   3   	   2
+GTEX-WEY5   	   GTEX-WEY5-0008-SM-4LMKC   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   279.0   	   44   	   Organ Donor (OPO)   	   3   	   2
+GTEX-WEY5   	   GTEX-WEY5-2326-SM-3GIKK   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   299.0   	   44   	   Organ Donor (OPO)   	   3   	   2
+GTEX-WFG7   	   GTEX-WFG7-0001-SM-3P61S   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -104.0   	   25   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFG7   	   GTEX-WFG7-0008-SM-4LMKB   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   249.0   	   25   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFG7   	   GTEX-WFG7-2026-SM-3GIL7   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   215.0   	   25   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFG7   	   GTEX-WFG7-2026-SM-5SI7P   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   215.0   	   25   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFG8   	   GTEX-WFG8-0001-SM-4LVN8   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -56.0   	   28   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFG8   	   GTEX-WFG8-0008-SM-4LVN6   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   333.0   	   28   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFG8   	   GTEX-WFG8-2126-SM-3GIKQ   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   309.0   	   28   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFG8   	   GTEX-WFG8-2226-SM-3GIL9   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   333.0   	   28   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFON   	   GTEX-WFON-0001-SM-3P61W   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -164.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFON   	   GTEX-WFON-0001-SM-5S2SE   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -164.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFON   	   GTEX-WFON-1926-SM-3LK7L   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   234.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFON   	   GTEX-WFON-2126-SM-3LK7O   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   219.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WFON   	   GTEX-WFON-2126-SM-5S2T9   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   219.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WH7G   	   GTEX-WH7G-0002-SM-4LVN9   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -166.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WH7G   	   GTEX-WH7G-0008-SM-4LVNM   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   371.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WH7G   	   GTEX-WH7G-2026-SM-3NMBL   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   329.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WH7G   	   GTEX-WH7G-2326-SM-3NMBC   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   376.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHPG   	   GTEX-WHPG-0004-SM-3NMDO   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -113.0   	   50   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHPG   	   GTEX-WHPG-0008-SM-4M1ZQ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   310.0   	   50   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHPG   	   GTEX-WHPG-2626-SM-3NMBR   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   314.0   	   50   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHSB   	   GTEX-WHSB-0002-SM-4M1ZR   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -68.0   	   50   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHSB   	   GTEX-WHSB-0008-SM-4M1ZP   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   290.0   	   50   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHSB   	   GTEX-WHSB-1326-SM-3LK6W   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   285.0   	   50   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHWD   	   GTEX-WHWD-0003-SM-4M1ZS   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -42.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHWD   	   GTEX-WHWD-0008-SM-4OOSU   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   327.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WHWD   	   GTEX-WHWD-1826-SM-3LK6I   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   319.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WXYG   	   GTEX-WXYG-0004-SM-4MVOS   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -231.0   	   53   	   Organ Donor (OPO)   	   2   	   2
+GTEX-WXYG   	   GTEX-WXYG-0008-SM-4ONDU   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   212.0   	   53   	   Organ Donor (OPO)   	   2   	   2
+GTEX-WXYG   	   GTEX-WXYG-2026-SM-4E3IY   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   203.0   	   53   	   Organ Donor (OPO)   	   2   	   2
+GTEX-WXYG   	   GTEX-WXYG-2326-SM-4E3I6   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   213.0   	   53   	   Organ Donor (OPO)   	   2   	   2
+GTEX-WY7C   	   GTEX-WY7C-0004-SM-4ONDS   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -115.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WY7C   	   GTEX-WY7C-0008-SM-4ONDW   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   234.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WY7C   	   GTEX-WY7C-2126-SM-3NB2R   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   221.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WY7C   	   GTEX-WY7C-2326-SM-3NB2U   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   235.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-WYVS   	   GTEX-WYVS-0004-SM-4ONDT   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   82.0   	   46   	   Organ Donor (OPO)   	   3   	   2
+GTEX-WYVS   	   GTEX-WYVS-0008-SM-4ONDY   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   311.0   	   46   	   Organ Donor (OPO)   	   3   	   2
+GTEX-WYVS   	   GTEX-WYVS-1626-SM-3NM9R   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   282.0   	   46   	   Organ Donor (OPO)   	   3   	   2
+GTEX-WYVS   	   GTEX-WYVS-2126-SM-3NMA3   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   311.0   	   46   	   Organ Donor (OPO)   	   3   	   2
+GTEX-X3Y1   	   GTEX-X3Y1-0001-SM-4PQYP   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -35.0   	   44   	   Organ Donor (OPO)   	   2   	   1
+GTEX-X3Y1   	   GTEX-X3Y1-0008-SM-4PR12   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   175.0   	   44   	   Organ Donor (OPO)   	   2   	   1
+GTEX-X3Y1   	   GTEX-X3Y1-2026-SM-3P5YM   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   176.0   	   44   	   Organ Donor (OPO)   	   2   	   1
+GTEX-X4EO   	   GTEX-X4EO-0004-SM-4QARM   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   721.0   	   67   	   Postmortem   	   3   	   2
+GTEX-X4EO   	   GTEX-X4EO-0008-SM-4QASS   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   780.0   	   67   	   Postmortem   	   3   	   2
+GTEX-X4EO   	   GTEX-X4EO-0326-SM-3P5YO   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   779.0   	   67   	   Postmortem   	   3   	   2
+GTEX-X4EO   	   GTEX-X4EO-2926-SM-4E3JH   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   851.0   	   67   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0004-SM-4PQZX   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   1051.0   	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0008-SM-4PQYO   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   1104.0   	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R10B-SM-4QASJ   	   Brain   	   Brain - Frontal Cortex (BA9)   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R11B-SM-4QASK   	   Brain   	   Brain - Cerebellar Hemisphere   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R1A-SM-3P624   	   Brain   	   Brain - Hippocampus   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R2B-SM-3P625   	   Brain   	   Brain - Substantia nigra   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R3A-SM-3P626   	   Brain   	   Brain - Anterior cingulate cortex (BA24)   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R4B-SM-3P627   	   Brain   	   Brain - Amygdala   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R5A-SM-3P628   	   Brain   	   Brain - Caudate (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R6A-SM-3P629   	   Brain   	   Brain - Nucleus accumbens (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R7B-SM-4PQZW   	   Brain   	   Brain - Putamen (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R8B-SM-4QASL   	   Brain   	   Brain - Hypothalamus   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0011-R9B-SM-4QASI   	   Brain   	   Brain - Spinal cord (cervical c-1)   	   RNA isolation_PAXgene Tissue miRNA   	      	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0126-SM-3P5YV   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   1104.0   	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-0626-SM-3P621   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   1129.0   	   63   	   Postmortem   	   3   	   2
+GTEX-X4EP   	   GTEX-X4EP-3026-SM-3P5YP   	   Brain   	   Brain - Cerebellum   	   RNA isolation_PAXgene Tissue miRNA   	   1189.0   	   63   	   Postmortem   	   3   	   2
+GTEX-X585   	   GTEX-X585-0002-SM-46MVA   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   713.0   	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0008-SM-46MU4   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   780.0   	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R10A-SM-46MUY   	   Brain   	   Brain - Frontal Cortex (BA9)   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R11B-SM-46MUZ   	   Brain   	   Brain - Cerebellar Hemisphere   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R1B-SM-46MVE   	   Brain   	   Brain - Hippocampus   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R2B-SM-46MVF   	   Brain   	   Brain - Substantia nigra   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R3B-SM-46MVG   	   Brain   	   Brain - Anterior cingulate cortex (BA24)   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R4B-SM-46MVH   	   Brain   	   Brain - Amygdala   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R5A-SM-46MVI   	   Brain   	   Brain - Caudate (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R6A-SM-46MVJ   	   Brain   	   Brain - Nucleus accumbens (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0011-R8A-SM-46MUX   	   Brain   	   Brain - Hypothalamus   	   RNA isolation_PAXgene Tissue miRNA   	      	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-0226-SM-4QAS2   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   780.0   	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-2426-SM-46MW2   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   847.0   	   56   	   Postmortem   	   2   	   1
+GTEX-X585   	   GTEX-X585-3026-SM-46MWF   	   Brain   	   Brain - Cortex   	   RNA isolation_PAXgene Tissue miRNA   	   864.0   	   56   	   Postmortem   	   2   	   1
+GTEX-X5EB   	   GTEX-X5EB-0004-SM-46MWA   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -101.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-X5EB   	   GTEX-X5EB-0008-SM-46MU3   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   276.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-X5EB   	   GTEX-X5EB-1926-SM-4E3IW   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   257.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-X5EB   	   GTEX-X5EB-2226-SM-46MW4   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   274.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XBED   	   GTEX-XBED-0003-SM-47JWP   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -116.0   	   60   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XBED   	   GTEX-XBED-0008-SM-47JWO   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   173.0   	   60   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XBED   	   GTEX-XBED-1926-SM-47JYP   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   164.0   	   60   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XBED   	   GTEX-XBED-2226-SM-47JYQ   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   211.0   	   60   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XBEW   	   GTEX-XBEW-0002-SM-4AT5O   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   338.0   	   47   	   Postmortem   	   3   	   1
+GTEX-XBEW   	   GTEX-XBEW-0008-SM-4AT3Y   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   440.0   	   47   	   Postmortem   	   3   	   1
+GTEX-XBEW   	   GTEX-XBEW-0626-SM-4QASP   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   439.0   	   47   	   Postmortem   	   3   	   1
+GTEX-XBEW   	   GTEX-XBEW-1126-SM-4QARW   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   449.0   	   47   	   Postmortem   	   3   	   1
+GTEX-XQ3S   	   GTEX-XQ3S-0001-SM-4B64K   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   697.0   	   26   	   Postmortem   	   3   	   1
+GTEX-XQ3S   	   GTEX-XQ3S-0008-SM-4GIDZ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   895.0   	   26   	   Postmortem   	   3   	   1
+GTEX-XQ3S   	   GTEX-XQ3S-1426-SM-4BOPR   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   882.0   	   26   	   Postmortem   	   3   	   1
+GTEX-XQ3S   	   GTEX-XQ3S-1526-SM-4BOOC   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   894.0   	   26   	   Postmortem   	   3   	   1
+GTEX-XUJ4   	   GTEX-XUJ4-0004-SM-4BOQE   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -149.0   	   64   	   Organ Donor (OPO)   	   3   	   2
+GTEX-XUJ4   	   GTEX-XUJ4-0008-SM-4BOQI   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   196.0   	   64   	   Organ Donor (OPO)   	   3   	   2
+GTEX-XUJ4   	   GTEX-XUJ4-1826-SM-4BOOU   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   150.0   	   64   	   Organ Donor (OPO)   	   3   	   2
+GTEX-XUJ4   	   GTEX-XUJ4-2426-SM-4BOO3   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   197.0   	   64   	   Organ Donor (OPO)   	   3   	   2
+GTEX-XXEK   	   GTEX-XXEK-0004-SM-4BRWO   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -129.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XXEK   	   GTEX-XXEK-0004-SM-5S2TO   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -129.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XXEK   	   GTEX-XXEK-0008-SM-4BRW7   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   215.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XXEK   	   GTEX-XXEK-1626-SM-4BRUZ   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   187.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XXEK   	   GTEX-XXEK-2226-SM-4BRUM   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   215.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XXEK   	   GTEX-XXEK-2226-SM-5S2SA   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   215.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-XYKS   	   GTEX-XYKS-0002-SM-4BRWN   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -107.0   	   65   	   Organ Donor (OPO)   	   2   	   2
+GTEX-XYKS   	   GTEX-XYKS-0008-SM-4BRW6   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   222.0   	   65   	   Organ Donor (OPO)   	   2   	   2
+GTEX-XYKS   	   GTEX-XYKS-1426-SM-4BRUO   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   204.0   	   65   	   Organ Donor (OPO)   	   2   	   2
+GTEX-XYKS   	   GTEX-XYKS-2126-SM-4E3IB   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   218.0   	   65   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y114   	   GTEX-Y114-0002-SM-4TT78   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -221.0   	   50   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y114   	   GTEX-Y114-0008-SM-4TT8X   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   227.0   	   50   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y114   	   GTEX-Y114-2126-SM-4TT8B   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   202.0   	   50   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y114   	   GTEX-Y114-2426-SM-4TT8A   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   228.0   	   50   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y3IK   	   GTEX-Y3IK-0001-SM-4WWE1   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -91.0   	   57   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y3IK   	   GTEX-Y3IK-0008-SM-4WWDZ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   172.0   	   57   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y3IK   	   GTEX-Y3IK-1626-SM-4YCF5   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA isolation_PAXgene Tissue miRNA   	   122.0   	   57   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y3IK   	   GTEX-Y3IK-2426-SM-4WWDU   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   174.0   	   57   	   Organ Donor (OPO)   	   2   	   2
+GTEX-Y5LM   	   GTEX-Y5LM-0003-SM-4V6G1   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -469.0   	   42   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y5LM   	   GTEX-Y5LM-0926-SM-6LLJG   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   DNA or RNA Extraction from Paxgene-derived Lysate Plate Based   	   102.0   	   42   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y5LM   	   GTEX-Y5LM-1926-SM-5RQJH   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   187.0   	   42   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y5V5   	   GTEX-Y5V5-0001-SM-4V6FZ   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   115.0   	   61   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y5V5   	   GTEX-Y5V5-0126-SM-5S2NW   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   138.0   	   61   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y5V5   	   GTEX-Y5V5-2326-SM-4V6GA   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   266.0   	   61   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y5V6   	   GTEX-Y5V6-0003-SM-4V6FX   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -35.0   	   65   	   Organ Donor (OPO)   	   3   	   1
+GTEX-Y5V6   	   GTEX-Y5V6-0008-SM-4V6FV   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   210.0   	   65   	   Organ Donor (OPO)   	   3   	   1
+GTEX-Y5V6   	   GTEX-Y5V6-2326-SM-4VDSA   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   207.0   	   65   	   Organ Donor (OPO)   	   3   	   1
+GTEX-Y5V6   	   GTEX-Y5V6-2426-SM-4VDSB   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   212.0   	   65   	   Organ Donor (OPO)   	   3   	   1
+GTEX-Y8E4   	   GTEX-Y8E4-0003-SM-4V6FY   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   240.0   	   46   	   Postmortem   	   3   	   1
+GTEX-Y8E4   	   GTEX-Y8E4-0008-SM-4V6FW   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   377.0   	   46   	   Postmortem   	   3   	   1
+GTEX-Y8E4   	   GTEX-Y8E4-0626-SM-4WWDL   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   376.0   	   46   	   Postmortem   	   3   	   1
+GTEX-Y8E4   	   GTEX-Y8E4-2026-SM-5IFJB   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   424.0   	   46   	   Postmortem   	   3   	   1
+GTEX-Y8LW   	   GTEX-Y8LW-0002-SM-4V6G2   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -69.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y8LW   	   GTEX-Y8LW-0008-SM-4V6G5   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   342.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y8LW   	   GTEX-Y8LW-1526-SM-5IFHL   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   275.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y8LW   	   GTEX-Y8LW-1826-SM-5S2MV   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   341.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-Y9LG   	   GTEX-Y9LG-0001-SM-4VBRQ   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -164.0   	   32   	   Organ Donor (OPO)   	   3   	   1
+GTEX-Y9LG   	   GTEX-Y9LG-0008-SM-4VBRJ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   159.0   	   32   	   Organ Donor (OPO)   	   3   	   1
+GTEX-Y9LG   	   GTEX-Y9LG-1126-SM-4VBQ7   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   94.0   	   32   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YB5K   	   GTEX-YB5K-0003-SM-4VDSN   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -159.0   	   45   	   Organ Donor (OPO)   	   3   	   2
+GTEX-YB5K   	   GTEX-YB5K-0008-SM-4VDT8   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   284.0   	   45   	   Organ Donor (OPO)   	   3   	   2
+GTEX-YB5K   	   GTEX-YB5K-2026-SM-4VDT3   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   269.0   	   45   	   Organ Donor (OPO)   	   3   	   2
+GTEX-YB5K   	   GTEX-YB5K-2126-SM-4WWDJ   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   284.0   	   45   	   Organ Donor (OPO)   	   3   	   2
+GTEX-YEC3   	   GTEX-YEC3-0002-SM-4W1YI   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -110.0   	   56   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YEC3   	   GTEX-YEC3-0008-SM-4W1YF   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   281.0   	   56   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YEC3   	   GTEX-YEC3-1326-SM-4WWEL   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   258.0   	   56   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YEC3   	   GTEX-YEC3-1326-SM-5PNXV   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   258.0   	   56   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YEC4   	   GTEX-YEC4-0002-SM-4W1Z6   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -249.0   	   40   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YEC4   	   GTEX-YEC4-0008-SM-4W1YR   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   255.0   	   40   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YEC4   	   GTEX-YEC4-1826-SM-4W1YP   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   245.0   	   40   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YEC4   	   GTEX-YEC4-2126-SM-5IFJH   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   253.0   	   40   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YF7O   	   GTEX-YF7O-0004-SM-4W1ZT   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -61.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YF7O   	   GTEX-YF7O-0008-SM-4W1ZS   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   222.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YF7O   	   GTEX-YF7O-1526-SM-5IFI6   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   156.0   	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YF7O   	   GTEX-YF7O-2326-101833-SM-5CVN9   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	      	   53   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YFCO   	   GTEX-YFCO-0003-SM-4W21I   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -96.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YFCO   	   GTEX-YFCO-0008-SM-4W1Z4   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   208.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-YFCO   	   GTEX-YFCO-1226-SM-5LUAT   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   140.0   	   49   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZC5H   	   GTEX-ZC5H-0004-SM-4WAXK   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   206.0   	   41   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZC5H   	   GTEX-ZC5H-0008-SM-4WAX8   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   212.0   	   41   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZC5H   	   GTEX-ZC5H-0226-SM-4WAY9   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA isolation_PAXgene Tissue miRNA   	   212.0   	   41   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZC5H   	   GTEX-ZC5H-1526-SM-5HL9Y   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   281.0   	   41   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZDTS   	   GTEX-ZDTS-0001-SM-4WAXW   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   505.0   	   66   	   Postmortem   	   3   	   1
+GTEX-ZDTS   	   GTEX-ZDTS-0008-SM-4E3I8   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   630.0   	   66   	   Postmortem   	   3   	   1
+GTEX-ZDTS   	   GTEX-ZDTS-0126-SM-4WAY5   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   628.0   	   66   	   Postmortem   	   3   	   1
+GTEX-ZDTS   	   GTEX-ZDTS-0826-SM-4WKHL   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   645.0   	   66   	   Postmortem   	   3   	   1
+GTEX-ZDTT   	   GTEX-ZDTT-0004-SM-4WKG3   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -108.0   	   62   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZDTT   	   GTEX-ZDTT-0008-SM-4E3K5   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   183.0   	   62   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZDTT   	   GTEX-ZDTT-0426-SM-4WKFL   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   97.0   	   62   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZDTT   	   GTEX-ZDTT-2726-SM-4WKF8   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   183.0   	   62   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZF29   	   GTEX-ZF29-0002-SM-4WKF2   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -132.0   	   66   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZF29   	   GTEX-ZF29-0926-SM-4WKFZ   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   107.0   	   66   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZF2S   	   GTEX-ZF2S-0004-SM-4WKFE   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -42.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZF2S   	   GTEX-ZF2S-0008-SM-4E3IK   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   184.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZF2S   	   GTEX-ZF2S-1626-SM-57WES   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   145.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZF2S   	   GTEX-ZF2S-2326-SM-4WWCE   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   184.0   	   53   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZLV1   	   GTEX-ZLV1-0001-SM-4WWAO   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   1276.0   	   61   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZLV1   	   GTEX-ZLV1-1526-SM-4WWBC   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   1605.0   	   61   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZLWG   	   GTEX-ZLWG-0004-SM-4WWD5   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -245.0   	   59   	   Organ Donor (OPO)   	   2   	   2
+GTEX-ZLWG   	   GTEX-ZLWG-0008-SM-4E3J4   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   176.0   	   59   	   Organ Donor (OPO)   	   2   	   2
+GTEX-ZLWG   	   GTEX-ZLWG-0826-SM-59888   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   99.0   	   59   	   Organ Donor (OPO)   	   2   	   2
+GTEX-ZP4G   	   GTEX-ZP4G-0003-SM-4WWED   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -56.0   	   29   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZP4G   	   GTEX-ZP4G-0008-SM-4E3I4   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   270.0   	   29   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZP4G   	   GTEX-ZP4G-1426-SM-4WWCL   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   218.0   	   29   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZP4G   	   GTEX-ZP4G-2426-SM-57WEY   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   270.0   	   29   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZPCL   	   GTEX-ZPCL-0004-SM-4WWD6   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -54.0   	   62   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZPCL   	   GTEX-ZPCL-0008-SM-4WWAU   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   152.0   	   62   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZPCL   	   GTEX-ZPCL-1126-SM-4WWFE   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   104.0   	   62   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZPU1   	   GTEX-ZPU1-0004-SM-4WWAV   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -87.0   	   48   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZPU1   	   GTEX-ZPU1-0008-SM-4E3IR   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   175.0   	   48   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZPU1   	   GTEX-ZPU1-1126-SM-4YCF3   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   109.0   	   48   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZQG8   	   GTEX-ZQG8-0001-SM-4YCDH   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -71.0   	   65   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZQG8   	   GTEX-ZQG8-0008-SM-4E3J9   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   171.0   	   65   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZQG8   	   GTEX-ZQG8-0008-SM-4YCE7   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   171.0   	   65   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZQG8   	   GTEX-ZQG8-1626-SM-5HL6H   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   180.0   	   65   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZQG8   	   GTEX-ZQG8-1926-SM-4YCEO   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   183.0   	   65   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZT9W   	   GTEX-ZT9W-0003-SM-4YCE6   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -103.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZT9W   	   GTEX-ZT9W-0008-SM-4YCDJ   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   181.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZT9W   	   GTEX-ZT9W-1126-SM-57WDR   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   112.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZT9W   	   GTEX-ZT9W-2426-SM-57WFJ   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   180.0   	   54   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZT9X   	   GTEX-ZT9X-0004-SM-4YCDT   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -163.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZT9X   	   GTEX-ZT9X-0008-SM-4YCD7   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   247.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZT9X   	   GTEX-ZT9X-1526-SM-5DUXD   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   190.0   	   43   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZTSS   	   GTEX-ZTSS-0004-SM-4YCCS   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -70.0   	   47   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZTSS   	   GTEX-ZTSS-0008-SM-4YCE8   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   243.0   	   47   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZTSS   	   GTEX-ZTSS-1426-SM-5985P   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   218.0   	   47   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZTSS   	   GTEX-ZTSS-1926-SM-57WEW   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   244.0   	   47   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZTTD   	   GTEX-ZTTD-0001-SM-4YCD5   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   186.0   	   50   	   Postmortem   	   3   	   1
+GTEX-ZTTD   	   GTEX-ZTTD-0008-SM-51MQV   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   241.0   	   50   	   Postmortem   	   3   	   1
+GTEX-ZTTD   	   GTEX-ZTTD-2826-SM-4YCFA   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   384.0   	   50   	   Postmortem   	   3   	   1
+GTEX-ZTX8   	   GTEX-ZTX8-0002-SM-4YCEU   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -188.0   	   24   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZTX8   	   GTEX-ZTX8-0008-SM-4YCDV   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   184.0   	   24   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZTX8   	   GTEX-ZTX8-1326-SM-4YCEL   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   174.0   	   24   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZTX8   	   GTEX-ZTX8-1426-SM-5DUVO   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   184.0   	   24   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0002-SM-4YCF7   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   762.0   	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0008-SM-4YCEW   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   866.0   	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R10a-SM-51MT6   	   Brain   	   Brain - Frontal Cortex (BA9)   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R11b-SM-51MTI   	   Brain   	   Brain - Cerebellar Hemisphere   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R1a-SM-4YCE2   	   Brain   	   Brain - Hippocampus   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R3a-SM-4YCEE   	   Brain   	   Brain - Anterior cingulate cortex (BA24)   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R5b-SM-51MTG   	   Brain   	   Brain - Caudate (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R6b-SM-4YCDD   	   Brain   	   Brain - Nucleus accumbens (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R7b-SM-4YCDP   	   Brain   	   Brain - Putamen (basal ganglia)   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0011-R8b-SM-51MST   	   Brain   	   Brain - Hypothalamus   	   RNA isolation_PAXgene Tissue miRNA   	      	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-0126-SM-5GU76   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   865.0   	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-2626-SM-5NQ92   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   964.0   	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-2926-SM-59HL3   	   Brain   	   Brain - Cerebellum   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   990.0   	   46   	   Postmortem   	   3   	   1
+GTEX-ZUA1   	   GTEX-ZUA1-3026-SM-59HJC   	   Brain   	   Brain - Cortex   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   992.0   	   46   	   Postmortem   	   3   	   1
+GTEX-ZV7C   	   GTEX-ZV7C-0003-SM-4YCF6   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -223.0   	   54   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZV7C   	   GTEX-ZV7C-0008-SM-57WCL   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   165.0   	   54   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZV7C   	   GTEX-ZV7C-0926-SM-59HL1   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   116.0   	   54   	   Organ Donor (OPO)   	   2   	   1
+GTEX-ZVT2   	   GTEX-ZVT2-0001-SM-57WCK   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -143.0   	   59   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZVT2   	   GTEX-ZVT2-0008-SM-57WC9   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   149.0   	   59   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZVT2   	   GTEX-ZVT2-0126-SM-5GIDQ   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   85.0   	   59   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZVT2   	   GTEX-ZVT2-2526-SM-51MT1   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   149.0   	   59   	   Organ Donor (OPO)   	   3   	   2
+GTEX-ZVTK   	   GTEX-ZVTK-0003-SM-51MRV   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   725.0   	   22   	   Postmortem   	   2   	   1
+GTEX-ZVTK   	   GTEX-ZVTK-0008-SM-57WDA   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   946.0   	   22   	   Postmortem   	   2   	   1
+GTEX-ZVTK   	   GTEX-ZVTK-0226-SM-51MRG   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   899.0   	   22   	   Postmortem   	   2   	   1
+GTEX-ZVTK   	   GTEX-ZVTK-0426-SM-51MRS   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   945.0   	   22   	   Postmortem   	   2   	   1
+GTEX-ZVZP   	   GTEX-ZVZP-0004-SM-51MS8   	   Blood   	   Cells - EBV-transformed lymphocytes   	   RNA isolation_Trizol Manual (Cell Pellet)   	   -170.0   	   58   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZVZP   	   GTEX-ZVZP-0008-SM-51MSX   	   Skin   	   Cells - Transformed fibroblasts   	   RNA isolation_Trizol Manual (Cell Pellet)   	   158.0   	   58   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZVZP   	   GTEX-ZVZP-1226-SM-5GID7   	   Skin   	   Skin - Not Sun Exposed (Suprapubic)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   101.0   	   58   	   Organ Donor (OPO)   	   3   	   1
+GTEX-ZVZP   	   GTEX-ZVZP-2426-SM-59HKJ   	   Skin   	   Skin - Sun Exposed (Lower leg)   	   RNA Extraction from Paxgene-derived Lysate Plate Based   	   158.0   	   58   	   Organ Donor (OPO)   	   3   	   1

@@ -1,0 +1,15 @@
+#!/bin/sh
+filename="$1"
+while read -r line
+do
+        name="$line"
+        echo $name
+        dir=/data/home/hparaqindes/ncbi/dbGaP-13871/sra
+        # qcfile=/data/home/hparaqindes/ncbi/qcfile.txt
+        # cd /data/home/hparaqindes/ncbi/dbGaP-13871/sra
+        #if [ -d $dir/$name/fastQC ]; then
+        #        echo $dir/$name/fastQC/${name}_1_fastqc.zip '\n'$dir/$name/fastQC/${name}_2_fastqc.zip '\n'$dir/$name/STAR/${name}_Log.fina$
+        #fi
+	scp -r hparaqindes@pedago-ngs:$dir/$name/STAR/${name}.count /home/hermesparaqindes/GTEx/data
+
+done < "$filename"
